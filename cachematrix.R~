@@ -4,9 +4,7 @@
 ## can be retrieved from the cache instead
 ## of computing it all over again, thus saving time.
 
-## The following function returns a list of functions set, get,
-## setsolve and getsolve, to set the matrix, get the matrix, set its
-## inverse and get its inverse, respectively.
+## the following function 
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -24,9 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The following function checks if the inverse is stored in the cache.
-## If yes, then it takes the inverse from the cache instead of computing it.
-## If not, it computes the inverse.
+## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
