@@ -3,6 +3,9 @@
 ## cache. If the matrix is not changing, the inverse
 ## can be retrieved from the cache instead
 ## of computing it all over again, thus saving time.
+## Here's a great link which explains how these
+## functions work:
+## https://asitarrives.wordpress.com/2014/10/18/understanding-lexical-scoping-in-r-great-guidance-for-community-ta-in-coursera/
 
 ## The following function returns a list of functions set, get,
 ## setsolve and getsolve, to set the matrix, get the matrix, set its
